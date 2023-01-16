@@ -1,5 +1,16 @@
 package com.miempresa.miapp.ejercicio;
-
+/*
+Ejercicio 1:
+Crea un nuevo proyecto llamado variables
+Ejercicio 2:
+Crea un paquete llamado com.miempresa.miapp
+Ejercicio 3:
+Crea una Clase con el método main llamada App
+Ejercicio 4:
+Declara las siguientes variables, asígnales un valor y sácalas por pantalla: entero llamado numero, corto llamado marianico, largo llamado gasol, booleano llamado independencia, double llamado presupuesto y float llamado longitud.
+Ejercicio 5:
+Declara una variable llamada suma: que sea la suma de gasol y marianico, y sácala por pantalla
+ */
 public class APP {
     public static void main(String[] args)
     {
