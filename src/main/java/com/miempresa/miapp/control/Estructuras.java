@@ -1,5 +1,5 @@
 package com.miempresa.miapp.control;
-public class estructuras {
+public class Estructuras {
     public static void main(String[] args) {
         String black="\033[30m";
         String red="\033[31m";

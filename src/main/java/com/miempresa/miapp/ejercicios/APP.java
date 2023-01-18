@@ -1,4 +1,4 @@
-package com.miempresa.miapp.ejercicio;
+package com.miempresa.miapp.ejercicios;
 /*
 Ejercicio 1:
 Crea un nuevo proyecto llamado variables
