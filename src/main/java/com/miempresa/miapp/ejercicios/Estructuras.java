@@ -1,4 +1,4 @@
-package com.miempresa.miapp.control;
+package com.miempresa.miapp.ejercicios;
 public class Estructuras {
     public static void main(String[] args) {
         String black="\033[30m";

@@ -1,4 +1,5 @@
 package com.miempresa.miapp.ejercicios;
+import com.miempresa.miapp.clases.Colores;
 /*
 Ejercicio 1:
 Crea un nuevo proyecto llamado variables
@@ -14,6 +15,11 @@ Declara una variable llamada suma: que sea la suma de gasol y marianico, y sáca
 public class APP {
     public static void main(String[] args)
     {
+        Colores color= new Colores();
+        System.out.println(color.green);
+        System.out.println(color.hola);
+        System.out.println(color.red);
+
         int numero=17;
         short marianico=10;
         long gasol=1980;

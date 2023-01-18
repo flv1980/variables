@@ -28,7 +28,7 @@ public class Cadenas {
         System.out.println("La cadena pasada a minusculas: " + blue + saludo.toLowerCase() + reset);
 
         //Ejercicio 9: Saca por pantalla la posición del carácter 'l'
-        int posi = saludo.indexOf("l") + 1;
+        int posi = saludo.indexOf('l') + 1;
         System.out.println("La posicion de la l en la cadena es: " + purple + posi + reset);
 
         //Ejercicio 10: Declara otra cadena llamada saludo2 y compárala con la cadena saludo, saca un mensaje por pantalla indicando si son o no iguales
