@@ -16,10 +16,10 @@ public class ProgramaEmpleados {
         System.out.println("Sueldo: " + Colores.blue + empleado2.getSueldo() +Colores.reset);
         System.out.println("Cargo: " + Colores.blue + empleado2.cargo +Colores.reset);
 
-        Currito currito1 = new Currito("Pringuelas","1234567Z",666000111,1000,"Currito","Mañana","Mozo almacen");
+        Currito currito1 = new Currito("Pringuelas","1234567Z",666000111,1000.5f,"Currito","Mañana","Mozo almacen");
         System.out.println("Currito: " + Colores.green + currito1.toString() + Colores.reset);
-        Jefe jefe = new Jefe("Florentino","280000000",600600600,10000,"Jefe","CEO",55);
-        System.out.println("Jefe: " + Colores.red + jefe.toString() + Colores.reset);
+        Jefe jefe = new Jefe("Florentino","280000000",600600600,10000.99f,"Jefe","CEO",55);
+        System.out.println("Jefe: " + Colores.cyan + jefe.toString() + Colores.reset);
         //Tengo acceso al sueldo aunque sea protected porque lo pueden utilizar ya que es heredada
         System.out.println("Sueldo del jefe: " + Colores.purple + jefe.getSueldo());
     }
