@@ -1,6 +1,7 @@
 package com.miempresa.miapp.colecciones;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 public class Pieza implements Serializable {
     private static final long serialVersionçUID = 12345678L;
@@ -40,4 +41,18 @@ public class Pieza implements Serializable {
                 ", tipo='" + tipo + '\'' +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Pieza pieza = (Pieza) o;
+        return nombre.equals(pieza.nombre) && tipo.equals(pieza.tipo);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nombre, tipo);
+    }
+
 }
