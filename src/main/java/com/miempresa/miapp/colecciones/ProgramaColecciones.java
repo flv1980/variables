@@ -53,7 +53,7 @@ public class ProgramaColecciones {
         Pieza piezaRepetida = new Pieza("Memoria","RAM");
         misPiezas.add(piezaRepetida);
         System.out.println(Colores.red + "SET ¿Repetida?: " + Colores.reset + misPiezas);
-        TreeSet<Pieza> piezasOrdenadas = new TreeSet<Pieza>(misPiezas);
-        System.out.println(Colores.red + "SET Ordenada: " + Colores.reset + piezasOrdenadas);
+        //TreeSet<Pieza> piezasOrdenadas = new TreeSet<Pieza>(misPiezas);
+        //System.out.println(Colores.red + "SET Ordenada: " + Colores.reset + piezasOrdenadas);
     }
 }
